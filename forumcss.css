@@ -1,0 +1,168 @@
+* {
+margin: 0px;
+padding: 0px;
+font-family:Verdana;
+}
+body{
+background-color:#EAEAEA;
+}
+#banner{
+background-color: rgb(0,162,232);
+width:100%;
+}
+#banner-title{
+text-align:center;
+width:100%;
+color: black;
+padding-top:3%;
+padding-bottom:3%;
+}
+.navbar{
+list-style-type: none;
+overflow: auto;
+background-color:#676664;
+}
+.stck{
+position: sticky;
+top:0;
+}
+.navbar li{
+float:left;
+}
+.navbar li a{
+display:block;
+text-decoration: none;
+color:white;
+padding:14px;
+}
+#active-tab{
+background-color: #FF8633;
+}
+.navbar li a:hover{
+background-color: black;
+}
+#active-tab:hover{
+background-color: #FF8633;
+}
+.tdiv{
+border-left: 1px solid #F68820;
+border-right: 1px solid #F68820;
+border-bottom: 1px solid #F68820;
+border-radius: 0px 0px 10px 10px;
+overflow:hidden;
+}
+.main-table{
+width:101%;
+overflow:hidden;
+margin:0;
+}
+.main-table a{
+text-decoration: none;
+color: #F68820;
+}
+.forum-title{
+font-weight:bold;
+}
+.forum-desc{
+font-size:0.8em;
+color: #666666;
+}
+.main-table , .main-table th, .main-table td{
+border-spacing: 0;
+}
+.main-table tr th:nth-child(1){
+width:37px;
+}
+.main-table tr th:nth-child(2){
+width:55%;
+}
+.main-table tr th:nth-child(3){
+width:20%;
+}
+.main-table tr th{
+background-color:#4D4D4D;
+color:#D8D8D8;
+padding:3px;
+}
+.main-table tr td{
+padding:5px;
+}
+.main-table tr:nth-child(even){
+width:32%;
+background-color: #DADADA;
+}
+.main-table tr:nth-child(odd){
+width:32%;
+background-color: white;
+}
+.table-block{
+margin-top:60px;
+margin-bottom:30px;
+width:90%;
+margin-left:auto;
+margin-right:auto;
+
+}
+.half-bar1{
+border-radius: 10px 10px 0px 0px;
+height:20px;
+background-color:#F9B132;
+}
+.half-bar2{
+height:20px;
+background-color:#F68820;
+}
+.table-number{
+text-align:center;
+font-size:0.9em;
+color: #666666;
+}
+.post-data{
+	overflow:auto;
+	background-color: white;
+	padding:10px;
+		width:100%;
+	padding-top:20px;
+}
+.post-data span{
+	color:#666666;
+}
+.avatar{
+	width:180px;
+	height:180px;
+	border: 1px solid grey;
+}
+.user-info{
+padding-left:10px;
+padding-top:20px;
+padding-right:60px;
+padding-bottom:60px;
+width:180px;
+float: left;
+background-color: white;
+border-right:1px solid grey;
+}
+.main-body{
+display:flex;
+background-color:pink;
+overflow: hidden;
+}
+.username{
+	color:#F68820;
+}
+.user-type{
+	color:gray;
+}
+.user-disc{
+	font-size:0.8em;
+}
+.post-bar2{
+	padding-left:10px;
+	font-size:0.8em;
+	padding-top:3px;
+	color:white;
+}
+.post-counter{
+	float:right;
+	padding-right:3px;
+}
